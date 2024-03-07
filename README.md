@@ -29,9 +29,10 @@ The following **additional** features are implemented:
  Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+![flashcards](https://github.com/idkuri/Flashcards/assets/78403245/9c5a9f21-dcdd-4859-b55d-b6120e8c2ac5)
 
 <img src="https://imgur.com/23aetId" title='Video Walkthrough' width='' alt='Video Walkthrough' />
-##![flashcards](https://github.com/idkuri/Flashcards/assets/78403245/fb34d5ad-e4ad-4f52-b05b-8181b36a3138)
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
