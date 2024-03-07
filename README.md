@@ -1,8 +1,8 @@
-# Web Development Project 2 - *Name of App Here*
+# Web Development Project 2 - *Flashcards*
 
-Submitted by: **Your Name Here**
+Submitted by: **Andrew Cao**
 
-This web app: **insert description**
+This web app: **Flashcard application to study Chinese**
 
 Time spent: **X** hours spent in total
 
