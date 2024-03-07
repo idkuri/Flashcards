@@ -26,14 +26,15 @@ The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
 
-## Video Walkthrough
+ Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/23aetId' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![flashcards](https://github.com/idkuri/Flashcards/assets/78403245/9c5a9f21-dcdd-4859-b55d-b6120e8c2ac5)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
+[ScreenToGif](https://www.screentogif.com/) for Windows
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
