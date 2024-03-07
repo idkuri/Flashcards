@@ -1,42 +1,216 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Content:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.Flashcard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 25px;
+  transition: all linear 0.2s;
+  content: "front";
+  color: black;
+}
+
+.Flashcardeasy {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(167, 255, 167);
+  border-radius: 25px;
+  transition: all linear 0.2s;
+  content: "front";
+  color: black;
+}
+
+.Flashcardmedium {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 172, 125);
+  border-radius: 25px;
+  transition: all linear 0.2s;
+  content: "front";
+  color: black;
+}
+
+.Flashcardhard {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(247, 126, 126);
+  border-radius: 25px;
+  transition: all linear 0.2s;
+  content: "front";
+  color: black;
+}
+
+.Flashcardeasy.flipped img {
+  transform: scaleY(-1);
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.Flashcardmedium.flipped img {
+  transform: scaleY(-1);
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.Flashcardhard.flipped img {
+  transform: scaleY(-1);
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+
+.Flashcard.flipped {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 25px;
+  transform: scaleY(-1);
+  transition: transform linear 0.4s;
+  color: black;
+}
+
+.Flashcardeasy.flipped {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 25px;
+  transform: scaleY(-1);
+  transition: transform linear 0.4s;
+  color: black;
+}
+
+.Flashcardmedium.flipped {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 25px;
+  transform: scaleY(-1);
+  transition: transform linear 0.4s;
+  color: black;
+}
+
+.Flashcardhard.flipped {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 25px;
+  transform: scaleY(-1);
+  transition: transform linear 0.4s;
+  color: black;
+}
+
+.Flashcard.flipped h1 {
+  position: relative;
+  transform: scaleY(-1);
+  animation: fadeIn 0.9s ease-in;
+}
+
+.Flashcardeasy.flipped h1 {
+  position: relative;
+  transform: scaleY(-1);
+  animation: fadeIn 0.9s ease-in;
+}
+
+
+.Flashcardmedium.flipped h1 {
+  position: relative;
+  transform: scaleY(-1);
+  animation: fadeIn 0.9s ease-in;
+}
+
+.Flashcardhard.flipped h1 {
+  position: relative;
+  transform: scaleY(-1);
+  animation: fadeIn 0.9s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.app-header {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+  width: 50%;
+  aspect-ratio: 5/3;
+  height: auto;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.nextButton {
+  height: 50px;
+  width: 50px;
 }
