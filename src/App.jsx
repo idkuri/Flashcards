@@ -4,7 +4,7 @@ import chinese_vocabulary from "./chinese.json"
 
 function App() {
   const [flipped, setFlipped] = useState(false)
-  const [card, setCard] = useState(chinese_vocabulary[0])
+  const [card, setCard] = useState(chinese_vocabulary[Math.floor(Math.random() * chinese_vocabulary.length)])
 
   function handleCardSwap() {
     let index = Math.floor(Math.random() * chinese_vocabulary.length)
