@@ -32,10 +32,10 @@ Here's a walkthrough of implemented user stories:
 
 
 ![flashcard](https://github.com/idkuri/Flashcards/assets/78403245/0a7d4594-6fc5-415f-91d4-5f53e035d875)
-[ScreenToGif](https://www.screentogif.com/) for Windows
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
+[ScreenToGif](https://www.screentogif.com/) for Windows
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [peek](https://github.com/phw/peek) for Linux. -->
