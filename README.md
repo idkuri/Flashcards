@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 
-[flashcard](https://github.com/idkuri/Flashcards/assets/78403245/0a7d4594-6fc5-415f-91d4-5f53e035d875)
+![flashcard](https://github.com/idkuri/Flashcards/assets/78403245/0a7d4594-6fc5-415f-91d4-5f53e035d875)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
